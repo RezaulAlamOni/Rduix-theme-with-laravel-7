@@ -27,24 +27,16 @@
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item">
-                                    <a href="{{ route('home') }}" class="nav-link {{ Request::routeIs('home') ? 'active' : '' }}">
+                                    <a href="{{ route('home') }}"
+                                       class="nav-link {{ Request::routeIs('home') ? 'active' : '' }}">
                                         Home
                                         {{--                                    <i class='bx bx-chevron-down'></i>--}}
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">
+                                    <a href="{{ route('web.about') }}" class="nav-link {{ Request::routeIs('web.about') ? 'active' : '' }}">
                                         About
-                                        <i class='bx bx-chevron-down'></i>
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="about-style-one.html" class="nav-link">About Style One</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="about-style-two.html" class="nav-link">About Style two</a>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link dropdown-toggle">
@@ -77,7 +69,8 @@
                                                     <a href="sign-up.html" class="nav-link">Sign Up</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="recover-password.html" class="nav-link">Recover Password</a>
+                                                    <a href="recover-password.html" class="nav-link">Recover
+                                                        Password</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -108,7 +101,8 @@
                                             <a href="services-style-two.html" class="nav-link">Services Style two</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="services-style-three.html" class="nav-link">Services Style Three</a>
+                                            <a href="services-style-three.html" class="nav-link">Services Style
+                                                Three</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="services-style-four.html" class="nav-link">Services Style Four</a>

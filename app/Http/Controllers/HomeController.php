@@ -16,4 +16,8 @@ class HomeController extends Controller
     {
         return view('web.Home');
     }
+    public function about()
+    {
+        return view('web.About');
+    }
 }
