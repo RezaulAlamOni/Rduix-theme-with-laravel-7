@@ -46,6 +46,8 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
+        $this->mapWebRoutesCopy();
+
         //
     }
 
@@ -61,6 +63,12 @@ class RouteServiceProvider extends ServiceProvider
         Route::middleware('web')
              ->namespace($this->namespace)
              ->group(base_path('routes/web.php'));
+    }
+    protected function mapWebRoutesCopy()
+    {
+        Route::middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('app/Http/router/web.php'));
     }
 
     /**
