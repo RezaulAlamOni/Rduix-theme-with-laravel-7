@@ -153,24 +153,9 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">
+                                    <a href="{{ route('web.contact') }}" class="nav-link {{ Request::routeIs('web.contact') ? 'active' : '' }}">
                                         Contact
-                                        <i class='bx bx-chevron-down'></i>
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="contact-style-one.html" class="nav-link">Contact Style One</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="contact-style-two.html" class="nav-link">Contact Style two</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="contact-style-three.html" class="nav-link">Contact Style Three</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="contact-style-four.html" class="nav-link">Contact Style Four</a>
-                                        </li>
-                                    </ul>
                                 </li>
                             </ul>
                             <!-- Start Other Option -->

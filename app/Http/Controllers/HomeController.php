@@ -20,4 +20,9 @@ class HomeController extends Controller
     {
         return view('web.About');
     }
+
+    public function contact()
+    {
+        return view('web.contact');
+    }
 }
