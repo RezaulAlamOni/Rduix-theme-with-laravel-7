@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5ff11a-5171-40ce-ba67-9a6566db8074" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/web/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/login1.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/register1.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/router/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/router/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,12 +133,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/auth" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\lara7\resources\views\auth" />
       <recent name="D:\xampp\htdocs\lara7\resources\views\web" />
       <recent name="D:\xampp\htdocs\lara7\public" />
     </key>
@@ -175,7 +177,8 @@
       <workItem from="1583725557225" duration="15714000" />
       <workItem from="1583813196741" duration="77000" />
       <workItem from="1583832257883" duration="12785000" />
-      <workItem from="1583898858476" duration="608000" />
+      <workItem from="1583898858476" duration="24576000" />
+      <workItem from="1584097431092" duration="4867000" />
     </task>
     <servers />
   </component>
@@ -183,10 +186,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1583732565912">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1583901239708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583732565912" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583901239708" />
     <state x="795" y="443" key="NewPhpFileDialog" timestamp="1583835651160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,10 +198,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583833839237" />
-    <state x="592" y="222" width="736" height="596" key="find.popup" timestamp="1583758688202">
+    <state x="507" y="218" width="736" height="596" key="find.popup" timestamp="1583913690328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="592" y="222" width="736" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583758688202" />
+    <state x="507" y="218" width="736" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583913690328" />
     <state x="616" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1583758848709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
